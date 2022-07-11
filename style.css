@@ -40,6 +40,9 @@ body{
    outline: none;
    padding: 0.2rem;
 }
+.cellprop-actions-cont > * {
+    cursor: pointer;
+}
 .formula-actions-cont{
     height: 2rem;
     background-color: #ecf0f1;
@@ -141,6 +144,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+     /* font-weight:bold ; */
 }
 .row-cont{
    display: flex;
